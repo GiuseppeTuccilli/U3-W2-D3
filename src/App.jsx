@@ -54,10 +54,7 @@ function App() {
               <>
                 <Top text="Movies" />
                 <GeneralSection2 text="Trending Now" search="Star Wars" />
-                <GeneralSection2
-                  text="Watch it Again"
-                  search="Lord of the rings"
-                />
+                <GeneralSection2 text="Watch it Again" search="stephen king" />
               </>
             }
           />

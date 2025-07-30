@@ -11,7 +11,7 @@ const MovieDetails = () => {
   const [genere, setGenere] = useState("");
   const [runTime, setRunTime] = useState("");
   const [country, setCountry] = useState("");
-  const [img, setImg] = useState("");
+  const [img, setImg] = useState(null);
 
   const params = useParams();
   console.log(params);
