@@ -68,6 +68,7 @@ const GeneralSection2 = (props) => {
 
   useEffect(() => {
     getMovies();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.search]);
 
   return (
