@@ -1,0 +1,122 @@
+@import './functions';
+@import './variables';
+
+$btn-border-radius: 0;          
+$btn-border-radius-sm: 0;        
+$btn-border-radius-lg: 0;
+
+
+
+header{ 
+    height: 7em;;
+    nav {
+    a:hover{color: white}
+}
+}
+
+
+
+$new-theme-colors:(
+    "secondary":#818181,
+    "dark":  #141414,
+     "superdark":   #000000, 
+);
+
+$theme-colors: map-merge($map1:$theme-colors , $map2:$new-theme-colors );
+
+.carousel-inner{
+    height: 15em;
+    div{
+        height: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+footer{
+    i{
+        font-size: 2em;
+        margin-right: 0.8em
+    }
+    
+}
+img{
+    transition: 0.2s linear;
+}
+/*
+#carouselExample{
+  div{position: relative;}
+}
+#carouselExample2{
+  div{position: relative;}
+}
+#carouselExample3{
+  div{position: relative;}
+}
+
+#carouselExample img:hover{
+    transform: scale(1.5) ;
+    cursor: pointer;
+    position: absolute;
+      
+    }
+#carouselExample2 img:hover{
+    transform: scale(1.5), translateZ(5);
+    cursor: pointer;
+    position: absolute;
+}
+#carouselExample3 img:hover{
+    transform: scale(1.5), translateZ(5);
+    cursor: pointer;
+    position: absolute;
+}*/
+
+#carouselExample div div div div:hover{
+    cursor: pointer;
+    transition: 0.1s linear;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#carouselExample2 div div div div:hover{
+    cursor: pointer;
+    transition: 0.1s linear;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#carouselExample3 div div div div:hover{
+    cursor: pointer;
+    transition: 0.1s linear;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#carouselExamplemd div div div div:hover{
+    cursor: pointer;
+    transition: 0.1s linear;
+    transform: scale(1.1);
+    z-index: 1;
+}
+#carouselExamples div div div div:hover{
+    cursor: pointer;
+    transition: 0.1s linear;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+
+$dark:    #141414;      
+
+
+
+
+
+
+
+
+
+
+@import './bootstrap.scss';

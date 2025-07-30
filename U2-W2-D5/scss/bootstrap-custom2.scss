@@ -1,0 +1,85 @@
+@import './functions';
+@import './variables';
+
+$btn-border-radius: 0;          
+$btn-border-radius-sm: 0;        
+$btn-border-radius-lg: 0;
+
+
+
+header{ 
+    height: 7em;;
+    nav {
+    a:hover{color: white}
+}
+}
+
+
+
+$new-theme-colors:(
+    "secondary":#818181,
+    "dark":  #141414,
+     "superdark":   #000000, 
+);
+
+$theme-colors: map-merge($map1:$theme-colors , $map2:$new-theme-colors );
+
+.carousel-inner{
+    height: 12em;
+    div{
+        height: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+footer{
+    i{
+        font-size: 2em;
+        margin-right: 0.8em
+    }
+    
+}
+
+$dark:    #141414;      
+
+$form-check-input-bg: $dark;
+$form-check-input-checked-bg-color:$dark;
+$form-check-input-border:2px solid white;
+$form-check-input-checked-border-color:white;
+$form-check-input-border-radius: 0;
+$form-check-radio-border-radius:   0;    
+
+#checkChecked{
+    height: 2em;
+    width:2em;
+}
+#checkChecked2{
+    height: 2em;
+    width:2em;
+}
+
+#lab1{
+    color: white;
+    padding-top: 0.3em;
+    margin-left: 0.5em;
+}
+#lab2{color: white;
+    padding-top: 0.3em;
+    margin-left: 0.5em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import './bootstrap.scss';
