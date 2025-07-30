@@ -100,6 +100,7 @@ const MovieDetails = () => {
             </Card.Body>
           </Card>
           <ListGroup>
+            <h3 className="text-white mt-3">Commenti:</h3>
             {comments.map((comment) => {
               return (
                 <ListGroup.Item key={comment._id}>
